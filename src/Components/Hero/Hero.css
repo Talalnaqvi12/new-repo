@@ -1,0 +1,138 @@
+.hero {
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+  /* Mobile Background */
+  background-image: url("https://via.placeholder.com/768x1000");
+}
+
+/* Overlay */
+.hero-overlay {
+  /* background: rgba(0, 0, 0, 0.55); */
+  width: 100%;
+  height: 100%;
+  padding: 15% 5%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Content */
+.hero-content {
+  text-align: center;
+  color: #fff;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 7vw;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  line-height: 1.2;
+  color:black
+}
+
+.hero-content h1 .highlight {
+  color: #F3C74C;
+}
+
+.hero-content p {
+  font-size: 3.8vw;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+/* CTA Button */
+.cta-btn {
+  padding: 1em 2em;
+  font-size: 4vw;
+  border: none;
+  border-radius: 50px;
+  background-color: #7456F7;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+
+.cta-btn:hover {
+  background-color: #F3C74C;
+  color: #2C3E50;
+}
+
+/* Social Proof */
+.social-proof {
+  margin-top: 3rem;
+}
+
+.social-proof p {
+  font-size: 3vw;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.social-proof .brands {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.social-proof img {
+  filter: none;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+  height: 35px;
+}
+
+.social-proof img:hover {
+  opacity: 1;
+}
+
+/* DESKTOP: >=768px */
+@media (min-width: 768px) {
+  .hero {
+    background-image: url("https://www.factorymotocrossgraphics.com/cdn/shop/files/UK_DEST_compressed_1.png?v=1754124901");
+    height:600px;
+    /* border:2px solid red; */
+  }
+
+  .hero-overlay {
+    /* padding: 12% 8%; */
+    width:40%;
+    
+  }
+
+  .hero-content h1 {
+    font-size: 3.5vw;
+  }
+
+  .hero-content p {
+    font-size: 1.5vw;
+  }
+
+  .cta-btn {
+    font-size: 1.2vw;
+    padding: 0.9em 2.5em;
+  }
+
+  .social-proof p {
+    font-size: 1vw;
+  }
+
+  .social-proof img {
+    height: 40px;
+  }
+}
+
+.hero-description{
+    color:black;
+}

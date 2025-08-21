@@ -1,0 +1,141 @@
+.about-us {
+  padding: 80px 20px;
+  background: linear-gradient(to right, #f9f9f9, #ffffff);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #222;
+}
+
+.about-text h2 span {
+  color: #7456F7; /* Your primary color */
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.about-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature .icon {
+  font-size: 1.5rem;
+  color: #7456F7;
+}
+
+.feature h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Right image */
+.about-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.03);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-features {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .feature {
+    justify-content: center;
+  }
+}
+
+.navHighlight{
+color:White;  
+}
+
+.navHighlight img{
+background-color:transparent;  
+}
+
+
+.about-list {
+  list-style: none; /* remove default bullets */
+  padding: 0;
+  margin: 20px 0;
+}
+
+.about-list li {
+  font-size: 1.1rem;
+  color: black;
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 30px; /* space for tick */
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.about-list li::before {
+  content: "✔"; /* tick icon */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #7456F7;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1;
+}

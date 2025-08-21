@@ -1,0 +1,151 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECTION BASE */
+.services-section {
+  background: white; /* Purple background */
+  padding: 80px 20px;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #ffffff;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-header h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color:#2C3E50;
+}
+
+.section-header .subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color:#2C3E50; /* Gold */
+  margin-top: 10px;
+}
+
+.section-header .description {
+  font-size: 1rem;
+  color:#2C3E50;
+
+  max-width: 700px;
+  margin: 15px auto 0;
+  line-height: 1.6;
+}
+
+/* GRID LAYOUT */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+@media (max-width: 992px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* SERVICE CARD */
+.service-card {
+  background: #2C3E50; /* Charcoal for cards */
+  border-radius: 18px;
+  padding: 30px;
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* ICON */
+.service-icon {
+  font-size: 2.5rem;
+  color: #F3C74C; /* Gold for icons */
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+/* TITLE */
+.service-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+/* DESCRIPTION */
+.service-description {
+  font-size: 1rem;
+  color: #eaeaea;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* HIGHLIGHTS */
+.service-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 25px;
+}
+
+.service-highlights li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 0.95rem;
+}
+
+.service-highlights li i {
+  color: #F3C74C; /* Gold bullet */
+  margin-right: 8px;
+  font-size: 1rem;
+}
+
+/* CTA BUTTON */
+.learn-more-btn {
+  display: inline-block;
+  background: #7456F7; /* Charcoal CTA */
+  color: #ffffff;
+  padding: 12px 22px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.learn-more-btn:hover {
+  background: #F3C74C; /* Gold hover */
+  color: #2C3E50; /* Dark text on gold */
+  transform: translateY(-2px);
+}

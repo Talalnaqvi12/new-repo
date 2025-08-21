@@ -1,0 +1,212 @@
+/* Section */
+.contact-section {
+  background-color: #ffffff;
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
+.contact-container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 3rem;
+  color: #7456f7;
+  margin-bottom: 80px;
+}
+
+/* Flex Layout */
+.contact-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: stretch;
+}
+
+/* Contact Form */
+.contact-form-wrapper {
+  flex: 1;
+  min-width: 350px;
+  background-color: #f8f8f8;
+  padding: 60px;
+  border-radius: 25px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* FIX: We will use a consistent gap on the parent form container
+  instead of individual margins, which makes spacing consistent.
+*/
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Unified vertical spacing */
+}
+
+.contact-form .contact-row {
+  display: flex;
+  gap: 25px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #7456f7;
+  box-shadow: 0 0 12px rgba(116, 86, 247, 0.3);
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #7456f7;
+  color: #fff;
+  padding: 20px;
+  font-size: 1.15rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #5c3ac9;
+}
+
+.form-result {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Testimonial Card */
+.testimonial-wrapper {
+  flex: 1;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-heading {
+  font-size: 2.2rem;
+  color: #7456f7;
+  margin-bottom: 35px;
+}
+
+/* FIX: Changing background to white for consistency with the main site background.
+  The padding and border-radius are good, let's keep them.
+*/
+.testimonial-card {
+  background-color: #ffffff; /* Consistent with site background */
+  padding: 55px 40px;
+  border-radius: 25px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+}
+
+/* NEW: Grouping the logo and stars for better visual flow.
+*/
+.testimonial-header-group {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center; /* Align elements to the left */
+  justify-content:space-around;
+  gap: 20px; /* Space between logo and stars */
+  margin-bottom: 20px;
+}
+
+/* Company Logo */
+.testimonial-company-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+     object-fit: contain;
+  /* Removed margin-bottom since gap on parent handles spacing */
+}
+
+/* Stars Animation */
+.testimonial-stars {
+  color: #FFD700; /* FIX: Changed to match the primary brand color */
+  font-size: 1.3rem;
+  /* Removed margin-bottom */
+  display: flex;
+  gap: 5px;
+  animation: fadeStars 1s ease forwards;
+}
+
+@keyframes fadeStars {
+  from { opacity: 0; transform: scale(0.5);}
+  to { opacity: 1; transform: scale(1);}
+}
+
+/* Highlighted Quote */
+.testimonial-quote {
+  font-style: italic;
+  color: #333;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  /* border-left: 4px solid #7456f7; */
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+/* Date/Timeline */
+.testimonial-detail {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* Author */
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.testimonial-author img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #7456f7;
+}
+
+.testimonial-author h5 {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.testimonial-author p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .contact-flex {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

@@ -1,0 +1,40 @@
+.testimonials-section {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  padding: 60px 0;
+}
+
+.testimonial-icon {
+  font-size: 2.5rem;
+  color: red;
+  position: relative;
+}
+
+.testimonial-icon::after {
+  content: "🎇";
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  font-size: 1rem;
+}
+
+.testimonial-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+.testimonial-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+@media (min-width: 360px) and (max-width: 560px) {
+ 
+.testimonials-section{
+  padding: 1.6rem;
+}
+  
+}
