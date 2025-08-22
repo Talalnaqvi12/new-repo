@@ -100,7 +100,7 @@
 /* DESKTOP: >=768px */
 @media (min-width: 768px) {
   .hero {
-    background-image: url("https://www.factorymotocrossgraphics.com/cdn/shop/files/UK_DEST_compressed_1.png?v=1754124901");
+    /* background-image: url("https://www.factorymotocrossgraphics.com/cdn/shop/files/UK_DEST_compressed_1.png?v=1754124901"); */
     height:600px;
     /* border:2px solid red; */
   }
