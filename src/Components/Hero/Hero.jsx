@@ -5,6 +5,10 @@ import WordpressImage from "../../assets/services/wordpress.png";
 import GoogleImage from "../../assets/services/google.png";
 import MetaImage from "../../assets/services/meta.png";
 import HeroImage from "../../assets/Hero/scalecredobanner.png"
+import ChatgptLogo from"../../assets/Hero/logo1.png";
+import ClaudeLogo from "../../assets/Hero/claude-logo.svg";
+import GeminiLogo from "../../assets/Hero/gemini.png";
+import perplexityLogo from "../../assets/Hero/per.png"
 
 const HeroSection = () => (
   <section className="hero"
@@ -23,12 +27,12 @@ AI-driven strategies that help you scale faster, smarter, and sustainably
 
         {/* Social Proofing */}
         <div className="social-proof">
-          <p className="hero-description">Trusted by leading brands worldwide</p>
+          <p className="hero-description">Automation Driven by Leading AI Tools</p>
           <div className="brands">
-            <img src={ShopifyImage} alt="Brand 1" />
-            <img src={WordpressImage} alt="Brand 2" />
-            <img src={GoogleImage} alt="Brand 3" />
-            <img src={MetaImage} alt="Brand 4" />
+            <img src={ChatgptLogo} alt="Brand 1" />
+            <img src={ClaudeLogo} alt="Brand 2" />
+            <img src={GeminiLogo} alt="Brand 3" />
+            <img src={perplexityLogo} alt="Brand 4" />
           </div>
         </div>
       </div>
