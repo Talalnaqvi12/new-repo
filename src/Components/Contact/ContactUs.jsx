@@ -30,7 +30,7 @@ const ContactUs = () => {
   return (
     <section className="contact-section" id="contactUs">
       <div className="contact-container">
-        <h2 className="contact-heading">Contact US</h2>
+        <h2 className="contact-heading">Contact Us</h2>
 
         <div className="contact-flex">
           {/* Contact Form */}
@@ -42,7 +42,7 @@ const ContactUs = () => {
           >
             <form onSubmit={onSubmit} className="contact-form">
               {/* NOTE: We're keeping the contact-row div for the side-by-side inputs but will use consistent spacing in the CSS. */}
-              <div className="contact-row">
+              {/* <div className="contact-row"> */}
                 <input
                   type="text"
                   name="firstName"
@@ -55,7 +55,7 @@ const ContactUs = () => {
                   placeholder="Last Name *"
                   required
                 />
-              </div>
+              {/* </div> */}
               <input type="email" name="email" placeholder="Email *" required />
               <input type="tel" name="phone" placeholder="Phone" />
               <textarea

@@ -1,6 +1,9 @@
 import React from "react";
 import "./About.css";
 import { FaLaptopCode, FaPalette, FaUsers, FaRocket } from "react-icons/fa";
+import Aboutus from "../../assets/services/aboutus.jpg";
+// import MetaImage from "../../assets/services/meta.png";
+
 
 const About = () => {
   return (
@@ -49,7 +52,7 @@ We’re not just another digital agency. We are your growth partner—the team y
         {/* Right: Image */}
         <div className="about-image">
           <img 
-            src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1600&auto=format&fit=crop" 
+            src={Aboutus}
             alt="Our Team" 
           />
         </div>
