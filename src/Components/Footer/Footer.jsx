@@ -95,8 +95,8 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} ScaleCredo. All Rights Reserved.</p>
           <div className="footer-links">
             <a href="#privacy">Privacy</a>
-            <a href="#terms">Terms</a>
-            <a href="#sitemap">Sitemap</a>
+            <a href="#terms">Terms & Conditions</a>
+            {/* <a href="#sitemap">Sitemap</a> */}
           </div>
         </div>
       </div>

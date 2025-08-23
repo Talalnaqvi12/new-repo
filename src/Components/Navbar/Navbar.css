@@ -8,7 +8,7 @@
 
 /* Base Navbar Styling */
 .navbar {
-  background-color: var(--tertiary-color) !important; /* Always fixed */
+  background-color: var(  --text-color-light) !important; /* Always fixed */
   box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
   padding: 15px 0;
   position: fixed;
@@ -19,7 +19,7 @@
 }
 #main-navbar-nav{
   padding:2%;
-    background-color: var(--tertiary-color) !important; /* Always fixed */
+    background-color: var( --text-color-light) !important; /* Always fixed */
   
 }
 .nav-item{
@@ -47,14 +47,14 @@
 }
 
 .navHighlight {
-  color: var(--primary-color);
+  color: var(--tertiary-color) !important;
 }
 
 /* Navbar Links */
 .mainNav .nav-link {
   font-size: 1rem;
-  color: var(--text-color-light) !important;
-  font-weight: 500;
+  color: var(   --tertiary-color) !important;
+  font-weight: 600;
   padding: 0 15px;
   transition: all 0.2s ease-in-out;
 }
