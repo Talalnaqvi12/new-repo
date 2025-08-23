@@ -1,13 +1,13 @@
 .hero {
   width: 100%;
-  position: relative;
+  /* position: relative; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   
 
   /* Mobile Background */
-  background-image: url("https://via.placeholder.com/768x1000");
+  background-image: url("../../assets/Hero/scalecredobannermobile.png");
 }
 
 /* Overlay */
@@ -100,8 +100,7 @@
 /* DESKTOP: >=768px */
 @media (min-width: 768px) {
   .hero {
-    /* background-image: url("https://www.factorymotocrossgraphics.com/cdn/shop/files/UK_DEST_compressed_1.png?v=1754124901"); */
-    height:600px;
+    background-image: url("../../assets/Hero/scalecredobanner.png")
     /* border:2px solid red; */
   }
 
@@ -134,5 +133,5 @@
 }
 
 .hero-description{
-    color:black;
+    color:#f5f5f5;
 }

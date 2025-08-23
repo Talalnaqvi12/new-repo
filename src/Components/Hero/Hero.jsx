@@ -4,9 +4,12 @@ import ShopifyImage from "../../assets/services/shopify.png";
 import WordpressImage from "../../assets/services/wordpress.png";
 import GoogleImage from "../../assets/services/google.png";
 import MetaImage from "../../assets/services/meta.png";
+import HeroImage from "../../assets/Hero/scalecredobanner.png"
 
 const HeroSection = () => (
-  <section className="hero">
+  <section className="hero"
+
+  >
     <div className="hero-overlay">
       <div className="hero-content">
         <h1>
