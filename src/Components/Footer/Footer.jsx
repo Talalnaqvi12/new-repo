@@ -71,7 +71,7 @@ const Footer = () => {
           <div className="col-lg-4 col-md-6 col-12">
             <h5 className="footer-title">Get in Touch</h5>
             <p>  <i className="fas fa-envelope"></i>info@scalecredo.com</p>
-            <p><i className="fas fa-map-marker-alt me-2 "></i> Office #308, Capital Technology Park, Sun Rise Avenue, Islamabad</p>
+            <p><i className="fas fa-map-marker-alt me-2 "></i> Soan Garden Block D,Street No 1,Office No 301 Islamabad</p>
          
           </div>
         </div>

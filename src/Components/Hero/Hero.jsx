@@ -10,6 +10,7 @@ import ClaudeLogo from "../../assets/Hero/claude-logo.svg";
 import GeminiLogo from "../../assets/Hero/gemini.png";
 import perplexityLogo from "../../assets/Hero/per.png"
 
+
 const HeroSection = () => (
   <section className="hero"
 
