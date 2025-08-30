@@ -83,11 +83,11 @@ const ContactUs = () => {
               {/* We've created a new div to group the logo and stars for better alignment */}
               <div className="testimonial-header-group">
                 {/* Company Logo */}
-                <img
+                {/* <img
                   src={MetaImage}
                   alt="Company Logo"
                   className="testimonial-company-logo"
-                />
+                /> */}
                 {/* Animated Stars */}
                 <div className="testimonial-stars">
                   <span>★</span>
